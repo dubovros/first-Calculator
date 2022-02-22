@@ -15,7 +15,7 @@ buttons.map(but => {
                     display.innerText = "Error"
                 }
                 break;
-            case '←':
+            case '⇐':
                 if (display.innerText){
                    display.innerText = display.innerText.slice(0, -1);
                 }
