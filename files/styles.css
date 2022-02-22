@@ -1,0 +1,83 @@
+.container {
+    max-width: 400px;
+    margin: 38vh auto 0 auto;
+    box-shadow: 0 0 40px 7px rgb(78, 67, 143);
+    position: relative;
+}
+
+.display {
+    padding: 16px 8px;
+    text-align: right;
+    font-size: 22px;
+    height: 40px;
+}
+
+p {
+    color: blueviolet;
+    font-size: 30px;
+    text-align: center;
+    text-shadow: 1px 1px 2px pink;
+    position: absolute;
+    left: 33%;
+    bottom: 100%;
+}
+
+.pic {
+    position: absolute;
+    left:50%;
+    margin-left:-525px;
+    bottom: 370px;
+}
+
+.pic img {
+    width: 1050px;
+    height: 350px;
+}
+
+.buttons {
+    display: grid;
+    width: 100%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 350px;
+}
+
+.button {
+    border: 1px solid rgb(78, 67, 143);
+    text-align: center;
+    cursor: pointer;
+    font-size: 22px;
+    padding: 20px;
+}
+
+.button:hover {
+    background-color: aqua;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+
+#equal {
+    background-color: #da8e1d;
+}
+
+@media screen and (max-width: 400px) { 
+    .container {
+        max-width: 300px;
+        margin: 18vh auto 0 auto;
+        box-shadow: 0 0 40px 7px rgb(78, 67, 143);
+    }
+
+    .pic img {
+        width: 650px;
+        height: 200px;
+    }
+
+    .pic {
+        position: absolute;
+        margin-left:-325px;
+        bottom: 385px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
